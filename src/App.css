@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 3rem auto 0 auto;
+  padding: 3rem;
+  background-color: #f4f4f4;
+}
+
+.headings { 
+  font-family: 'Open Sans', sans-serif;
+}
+
+.headings ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  margin: 0 0 5px 0;
+}
+
+.list-item:nth-child(1n+0) {
+  padding-right: 4px;
+}
+
+.list-item img {
+  width: 50%;
+}
+
+.main-content .list-item {
+  flex-basis: 50%;
+}
+
+.list-item-c {
+  padding: 5px;
+}
+
+.list-item-c:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.list-item-c h3 {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.list-item p {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
